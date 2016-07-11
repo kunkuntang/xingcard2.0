@@ -18,9 +18,11 @@
 		<script type="text/javascript">
 			window.xcard = {};
 			$(document).ready(function(){
-				xcard.controler.initPage();
+				//console.log(xcard.template.initGroup)
+				//xcard.controler.initPage();
 			});
 		</script>
+		<script src="source/template.js"></script>
 	</head>
 
 	<body>
