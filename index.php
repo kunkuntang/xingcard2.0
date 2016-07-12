@@ -31,25 +31,33 @@ if (!empty($a)) {
 	</head>
 	
 
-	<body >
-		<section>
-			<div class="image">
-				<img src="image/xingcard.png">
-			</div>
-			<div class="title">
-				<span>星名片v1.0</span>
-			</div>
-			<div class="container">
-				<form>
-					<div>
-						<input type="text" id="login" placeholder="输入你的社团/组织ID">
-					</div>
-					<div>
-						<input type="submit" value="登陆" id="submit" style="background-color:#1E90FF;width:71%;color:#fff">
-					</div>
-				</form>
-			</div>
-		</section>
+	<body>
+		<div class="container">
+			<div class="bg"></div>
+			<div class="mask"></div>
+			<section>
+				<div class="image">
+					<img src="image/xingCardLogo.png">
+				</div>
+				<div class="titleCon">
+					<div class="line leftLine"></div>
+					<div class="line rightLine"></div>
+					<span>星名片v2.0</span>
+				</div>
+				<div class="formCon">
+					<form>
+						<div>
+							<div class="title">社团/组织ID</div>
+							<input type="text" id="login" placeholder="输入你的社团/组织ID">
+						</div>
+						<div>
+							<!--<input type="submit" value="登陆" id="submit" style="background-color:#1E90FF;width:71%;color:#fff">-->
+								<img src="image/loginBtn.png" id="submit"/>
+						</div>
+					</form>
+				</div>
+			</section>
+		</div>
 	</body>
 	<script type="text/javascript">
 		var login = document.getElementById('login');
