@@ -77,6 +77,10 @@
 			color: #FFFFFF;
 			font-size: 1.8rem;
 		}
+		.formCon .textLine{
+			width: 100%;
+			border-bottom: 1px solid #FFFFFF;
+		}
 		section span {
 			line-height: 3rem;
 			display: inline-block;
@@ -98,7 +102,7 @@
 			height: 40px;
 			font-size: 1.5rem;
 			background-color: transparent;
-			border-bottom: 1px solid #FFFFFF;
+			/*border-bottom: 1px solid #FFFFFF;*/
 		}
 		#submit{
 			/*margin: 6rem 0 0 5rem;*/
@@ -111,3 +115,24 @@
 			
 		}
 		
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+	section .image {
+		padding-top: 4rem;
+		text-align: center;
+	}
+	section .titleCon .line{
+		width: 3.8rem;
+	}
+}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+    section .image {
+		padding-top: 4rem;
+		text-align: center;
+	}
+	
+	section .formCon{
+		bottom: 0;
+	}
+
+}

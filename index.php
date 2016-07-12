@@ -49,6 +49,7 @@ if (!empty($a)) {
 						<div>
 							<div class="title">社团/组织ID</div>
 							<input type="text" id="login" placeholder="输入你的社团/组织ID">
+							<div class="textLine"></div>
 						</div>
 						<div>
 							<!--<input type="submit" value="登陆" id="submit" style="background-color:#1E90FF;width:71%;color:#fff">-->
